@@ -10,7 +10,7 @@ class boy {
 
   jump() {
     if (this.y == height - this.r) {
-      this.by = -32; 
+      this.by = -155; 
       // حجم القفزه 
     }
   }
