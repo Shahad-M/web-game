@@ -1,7 +1,7 @@
 
 class boy {
   constructor() {
-    this.r = 200;
+    this.r = 175;
     this.x = 70;
     this.y = height - this.r;
     this.by = 0;
@@ -10,7 +10,7 @@ class boy {
 
   jump() {
     if (this.y == height - this.r) {
-      this.by = -32; 
+      this.by = -150; 
       // حجم القفزه 
     }
   }
@@ -32,5 +32,9 @@ class boy {
 
   show() {
     image(BImg, this.x, this.y, this.r, this.r);
+
+    // fill(255, 50);
+    // ellipseMode(CORNER);
+    // ellipse(this.x, this.y, this.r, this.r);
   }
 }

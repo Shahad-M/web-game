@@ -2,14 +2,14 @@
 
 class Shark {
   constructor() {
-    this.r = 100; 
-    // اصغر حجم القرش 
+    this.r = 75; 
+    //  حجم القرش 
     this.x = width;
     this.y = height - this.r;
   }
 
   move() {
-    this.x -= 10;
+    this.x -= 17;
   }
 
   show() {
